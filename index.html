@@ -1,0 +1,395 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+	
+	<link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/site.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <style>
+    .wow:first-child {
+      visibility: hidden;
+    }
+  </style>
+<body>
+	<div class="container">
+	<header>
+		<nav class="menu">
+		<a href="#" id="logo"><img src="image/logo.png">GreenDay</a>
+		<ul class="menulvl1">
+		  <li><a href="#">HOME </a></li>
+		  <li><a href="#">PRODUCTS</a>
+			<ul class="productsubmenu">
+			  <li><a href="#">Seeds</a></li>
+			  <li><a href="#">Fruits</a></li>
+			 <li><a href="#">Flowers</a></li>
+			<li><a href="#">Vegetable</a></li>
+			  
+			  
+			  
+			  
+			  </ul>
+			</li>
+			<li><a href="#">TEAM</a></li>
+			<li><a href="#">TESTIMONIALS</a></li>
+			<li><a href="#">GALLERY</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+		<a href="#" class="icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+		<a href="#" class="icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+		<a href="#" class="icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		</nav>
+		
+		
+	  </header>
+	
+	<div class="slider">
+		<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="image/slider 1e.png" style="width:100%">
+	<div class="slidethongtin">
+	<h1>Eco-friendly</h1>
+	<p>As the leading organic farm,we maintain an eco-friendly policy of growing and selling healthy food without any additives</p>
+	<div class="readmore">
+	<a href="#">READ MORE</a>	</div>
+	
+	
+	</div>
+  
+</div>
+
+<div class="mySlides fade">
+ 
+  <img src="image/slider 2e.png" style="width:100%">
+  <div class="slidethongtin">
+	<h1>Eco-friendly</h1>
+	<p>As the leading organic farm,we maintain an eco-friendly policy of growing and selling healthy food without any additives</p>
+	<div class="readmore">
+	<a href="#">READ MORE</a>	</div>
+	
+	
+	</div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="image/slider 3e.png" style="width:100%">
+  <div class="slidethongtin">
+	<h1>Eco-friendly</h1>
+	<p>As the leading organic farm,we maintain an eco-friendly policy of growing and selling healthy food without any additives</p>
+	<div class="readmore">
+	<a href="#">READ MORE</a>	</div>
+	
+	
+	</div>
+</div>
+<div class="mySlides fade">
+  
+  <img src="image/slider 4e.png" style="width:100%">
+  <div class="slidethongtin">
+	<h1>Eco-friendly</h1>
+	<p>As the leading organic farm,we maintain an eco-friendly policy of growing and selling healthy food without any additives</p>
+	<div class="readmore">
+	<a href="#">READ MORE</a>	</div>
+	
+	
+	</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+		
+		
+		</div>
+		<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+		
+	<div class="content1">
+		<div class="content1noidung">
+		<div class="content1product wow fadeInDown" >
+			<img src="image/index_09.jpg">
+			<a href="#">Natural & Organic</a>
+			
+			</div>
+		<div class="content1product wow fadeInDown" id="content1productmiddel">
+			<img src="image/index_11.jpg">
+			<a href="#">Best Equipment</a>
+			</div>
+		<div class="content1product wow fadeInDown">
+			<img src="image/index_13.jpg">
+			<a href="#">Dedicated Team</a>
+			
+			</div>
+		<div class="clear"></div>
+		<div class="content1hinhanh wow fadeInLeft" id="hianh" data-wow-delay="1s">
+			<img src="image/h1.png" >
+			</div>
+		<div class="content1hinhanh wow fadeInRight" data-wow-delay="1s">
+			<div class="content1hinhanhproduct">
+				<a class="example-image-link" href="image/p2.png" data-lightbox="example-set" data-title=""><img class="example-image" src="image/p2.png" alt=""/></a>
+				<a href="#" class="content1productten">Corn</a>
+				<p class="content1productgia">$27.00</p>
+			</div>
+			<div class="content1hinhanhproduct">
+				<a class="example-image-link" href="image/p1.png" data-lightbox="example-set" data-title=""><img class="example-image" src="image/p1.png" alt=""/></a>
+				<a href="#" class="content1productten">Avocado</a>
+				<p class="content1productgia"><del>$50.00</del> $28.00</p>
+			</div>
+			<div class="content1hinhanhproduct">
+				<a class="example-image-link" href="image/p3.png" data-lightbox="example-set" data-title=""><img class="example-image" src="image/p3.png" alt=""/></a>
+				<a href="#" class="content1productten">Brocoli</a>
+				<p class="content1productgia">$23.00</p>
+			</div>
+			<div class="content1hinhanhproduct">
+				<a class="example-image-link" href="image/p4.png" data-lightbox="example-set" data-title=""><img class="example-image" src="image/p4.png" alt=""/></a>
+				<a href="#" class="content1productten">Artichokes</a>
+				<p class="content1productgia">$25.00</p>
+			</div>
+			</div>
+		
+		
+		</div>
+		
+		
+		
+		</div>
+	<div class="banner">
+		<img src="image/banner.png">
+	  <div class="bannerthongtin">
+		<h1>Our Approach</h1>
+			<p>Our farm strictly combines the traditions of organic farming with latest innovations to make our products healthy and safe for clients. </p>
+		<div class="viewpresent"><em class="fa fa-play" aria-hidden="true"></em><a href="#">  VIEW PRESENTATION</a></div>
+	  </div>
+		
+		
+		
+		</div>
+	<div class="content2">
+		<div class="content2noidung">
+		<div class="content1hinhanh wow fadeInLeft" id="hianh1">
+		<div class="content2hinhanhproduct">
+				<a class="example-image-link" href="image/p6.png" data-lightbox="example-set" data-title=""><img class="example-image" src="image/p6.png" alt=""/></a>
+				<a href="#" class="content1productten">Peaches</a>
+				<p class="content1productgia"><del>$50.00</del> $28.00</p>
+			</div>
+			<div class="content1hinhanhproduct">
+				<a class="example-image-link" href="image/p5.png" data-lightbox="example-set" data-title=""><img class="example-image" src="image/p5.png" alt=""/></a>
+				<a href="#" class="content1productten">Apples</a>
+				<p class="content1productgia"> $21.00</p>
+			</div>
+			<div class="content2hinhanhproduct">
+				<a class="example-image-link" href="image/p8.png" data-lightbox="example-set" data-title=""><img class="example-image" src="image/p8.png" alt=""/></a>
+				<a href="#" class="content1productten">Kiwis</a>
+				<p class="content1productgia">$26.00</p>
+			</div>
+			<div class="content1hinhanhproduct">
+				<a class="example-image-link" href="image/p7.png" data-lightbox="example-set" data-title=""><img class="example-image" src="image/p7.png" alt=""/></a>
+				<a href="#" class="content1productten">Blueberries</a>
+				<p class="content1productgia">$23.00</p>
+			</div>	
+			</div>
+		<div class="content1hinhanh wow fadeInRight" id="hianh2">
+			<img src="image/h2.png">
+			</div>
+		
+		
+		
+		
+		</div>
+		
+		</div>
+	<div class="content3">
+		<div class="content3noidung wow fadeInDown">
+		<h1>Our Team</h1>
+		<div class="content3hinhanh wow fadeInLeft" data-wow-delay="0.5s">
+		<img src="image/portrait 2.jpg">
+			<div class="content3thongtin">
+			    <p class="tenpor">Thank Tk</p>
+				<p class="job">Founder</p>
+		    
+			</div>
+			
+		</div>
+			<div class="content3hinhanh wow fadeInDown" id="hinhanh3">
+			<img src="image/protrait.png">	
+		<div class="content3thongtin">
+			<p class="tenpor">Sam Robinson</p>
+			<p class="job">Farmyard Coordinator</p>
+			</div>
+		</div>
+			<div class="content3hinhanh wow fadeInRight" data-wow-delay="0.5s">
+			<img src="image/portrait 3.jpg">	
+		<div class="content3thongtin">
+			<p class="tenpor">Henry Harvet</p>
+			<p class="job">Garden Manager</p>
+			</div>
+		</div>
+		
+		</div>
+		</div>
+		<div class="clear"></div>
+	<div class="content4 wow fadeInUpBig">
+		<div class="content4noidung">
+		<h1>Our Partners</h1>
+		<div class="content4partner">
+			<img src="image/par1.jpg">
+			</div>
+		<div class="content4partner">
+			<img src="image/par2.jpg">
+			</div>
+		<div class="content4partner">
+			<img src="image/par3.jpg">
+			</div>
+		<div class="content4partner">
+		    <img src="image/par4.jpg">
+		</div>
+		</div>
+		
+		
+		</div>
+	<div class="information">
+		<img src="image/friut.png">
+		<form action="#" method="post">
+		<input style="text" placeholder="First Name" id="FirstName">
+		<input style="text" placeholder="Last Name" id="LastName">	
+		<input style="text" placeholder="Email" id="Email">
+		<textarea placeholder="Message" cols="55" rows="10" id="message"></textarea>
+		<input type="submit" value="Send" id="send">
+		
+		</form>
+		
+		
+		</div>
+	
+	<footer>
+		<div class="footernoidung">
+		<div class="footercol">
+			<div id="footercol1noidung1">
+			<a href="#" id="logo1"><img src="image/logo.png" id="logo2" >Greenday</a>
+			<p>Greenday is an organic farm located in California.we offer healthy foods and product to our client.</p>
+			</div>
+			<div class="footercol1noidung1">
+			
+			   <p><i class="fa fa-phone" aria-hidden="true" id="iconphone"></i>  +1 323-913-4688</p>
+				<p><i class="fa fa-clock-o" aria-hidden="true" id="icontime" ></i>  Mon-Sat:07:00AM - 05:00PM</p>
+				<p> <i class="fa fa-location-arrow" aria-hidden="true" id="icondirection"></i> 4730 Crytal Springs Dr,Los Angleles,CA 90027 </p>
+			</div>
+			</div>
+		<div class="footercol" id="footercolmid">
+			<h3>Newsletter</h3>
+			<p>Join our email newsletter for news and tips</p>
+		  <form action="#" method="post" id="footerform">
+		<input style="text" placeholder="Enter your E-mail" id="enteremail">
+	    <input type="submit" value="SUBSCRIBE" id="Subscribe">
+			</form>
+			<div class="clear"></div>
+			<p id="follow">Follow Us
+			<a href="#" class="icon2"><i class="fa fa-facebook" aria-hidden="true" ></i></a>	
+			<a href="#" class="icon2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="#" class="icon2"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+			<a href="#" class="icon2"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			
+			</p>
+			
+			</div>
+		<div class="footercol">
+			<h3>Gallery</h3>
+			<img src="image/g1.jpg">
+			<img src="image/g2.jpg">
+			<img src="image/g3.jpg">
+			<img src="image/g4.jpg">
+			</div>
+		
+		</div>
+		
+		
+		</footer>
+	<div class="copyright">
+		<p>@2019 Greenday.All rights reserved</p>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+		</div>
+	
+	
+	</div>
+	
+
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	 <script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+</body>
+</html>

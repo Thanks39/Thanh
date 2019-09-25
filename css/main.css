@@ -1,0 +1,644 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color: #9C9B9B;
+	margin: 0;
+}
+.container{width: 1024px;
+	       height: auto;
+	       background-color: #FFFFFF;
+	       margin: 0 auto;
+	
+	
+}
+header{width: 1024px;
+	   height: 60px;
+	  
+	
+}
+.menu{width: 800px;
+	  height: 60px;
+	  
+	  margin: 0 auto;
+	
+	
+}
+.menu #logo{float: left;
+	        text-decoration: none;
+	        color: #000000;
+	        padding-top:15px;
+	        font-size: 16px;
+	        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.menu i{padding-top: 20px;margin-left: 5px;
+	
+}
+.menu .icon{color: #1D1C1C;
+	        font-size: 20px;
+	
+}
+.menu .menulvl1 {float: left;
+	     margin-top: 0px;
+	     margin-bottom: 0px;
+	     padding-left: 10px;
+	   
+}
+
+header .menu .menulvl1  li{float: left;
+	            list-style-type: none;
+	               position: relative;
+	
+	
+}
+header .menu .menulvl1 li a{text-decoration: none;
+	              width: 100px;
+	              height: 60px;
+	               display: block;
+	               float: left;
+	               font-size: 13px;
+	               text-align: center;
+	               line-height: 60px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    color: #000000;
+}
+header .menu .menulvl1 li a:hover{;font-weight: 800;
+	                   
+}
+header .menu .menulvl1 li .productsubmenu { position: absolute;
+	                                        display: none;
+	                                         z-index: 500;
+	                                         
+	                                         margin-top: 60px;
+                                             padding-left: 10px;padding-right: 0px;
+	                                         
+	                                         
+}
+header .menu .menulvl1 li .productsubmenu li a{text-align: left;
+	
+}
+header .menu .menulvl1 li:hover .productsubmenu { display: block;
+	                                        
+	                                        background-color:rgba(255,255,255,0.30);
+	                                       
+	                                         padding-right: 10px;
+	
+}
+header .menu .menulvl1 li .productsubmenu li a:hover{
+	
+}
+
+/* noi dung slider */
+.slider{width: 1024px;
+	    height: 500px;
+	 
+	
+	
+	
+}
+.mySlides {display: none}
+img {vertical-align: middle;
+	position: relative;
+}
+.slidethongtin{position: absolute; 
+	           top: 50px;
+	           left: 140px;
+	           width: 450px;
+	 
+}
+.mySlides p{color: aliceblue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-bottom: 30px;
+	font-size: 15px;
+	
+}
+.mySlides h1{color: aliceblue;
+	        font-size: 70px;
+	        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	        margin-bottom: 30px;
+	
+}
+.readmore{width: 120px;
+	      height: 50px;
+	background-color: #065B10;
+	line-height: 50px;
+	text-align: center;
+	color: aliceblue;
+	
+}
+.readmore a{text-decoration: none;
+	        color: aliceblue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	
+}
+.mySlides img{width: 1024px;
+	          height: 460px;
+	
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1024px;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* noi dung content1*/
+.content1{width: 1024px;
+	      height: 650px;
+	      
+	
+}
+.content1noidung{width: 800px;
+	      height: 750px;
+	      margin: 0 auto;
+	      
+	
+}
+.content1product{width: 244px;
+	            height: 90px;
+	            border: double #A29D9D;
+	            float: left;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	
+}
+.content1product img{padding: 25px 5px 25px 25px;
+	
+}
+.content1product a{color: #0A730C;
+	               font-size: 18px;
+	               text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+#content1productmiddel{margin-left: 25px;
+	                   margin-right: 25px;
+	
+}
+.content1hinhanh{width: 394px;
+	             height: 500px;
+	             
+	             float: left;
+	             
+}
+#hianh img{width: 394px;
+	height: 500px;
+	
+}
+#hianh2 img{width: 394px;
+	                 height: 500px;
+	
+}
+.content1hinhanhproduct{width: 185px;
+	                    height: 240px;
+	                    
+	                    float: right;
+	                    margin-bottom: 15px;
+	                    margin-left: 12px;
+}
+#hianh{ margin-right: 12px;
+	
+}
+#hianh1{ margin-right: 12px;
+	
+}
+.content1hinhanhproduct img{width: 185px;
+	                        height: 200px;
+	
+}
+.content1hinhanhproduct img:hover{transform: scale(1.1)
+	
+}
+.content1productten{text-align: center;
+	                text-decoration: none;
+	                margin-top: 5px;
+	                margin-bottom: 5px;
+	                font-size: 17px;
+	                color: #000000;
+	                margin-left: 65px;
+	                font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+
+	
+}
+.content1productgia{text-align: center;
+	                margin-top: 5px;
+	               color: #11872A;
+	
+}
+.clear{
+	clear: both;
+}
+/* banner*/
+.banner{width: 1024px;
+	    height: 350px;
+	   
+	    position: relative;
+	
+	
+}
+.banner img{width: 1024px;
+	    height: 350px;
+	
+}
+.bannerthongtin{position: absolute;
+	            top: 50px;
+	            left: 300px;
+	            width: 480px;
+	            font-size: 13px;
+	            text-align: center;
+	           color: aliceblue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+.bannerthongtin p{margin-bottom: 25px;
+	
+}
+.bannerthongtin h1{font-size: 60px;
+	               font-family: 'Open Sans Condensed', sans-serif;
+	               color: aliceblue;
+	               margin-left: -30px;
+	               margin-bottom: 15px;
+	
+}
+.viewpresent{width: 240px;
+	         height: 50px;
+	         background-color: #0F6A0B; 
+	         border: outset #0F6A0B;
+	         line-height: 50px;
+	         
+	        margin-left: 100px;
+}
+.viewpresent a{text-decoration: none;
+	             color: aliceblue;
+	            font-size: 14px;
+	
+}
+/* content 2*/
+.content2{width: 1024px;
+	      height: 550px;
+	     
+	
+	
+}
+.content2hinhanhproduct{width: 185px;
+	                    height: 240px;
+	                    
+	                    float: left;
+	                    margin-bottom: 15px;
+	                    margin-right: 12px;
+}
+.content2hinhanhproduct img{width: 185px;
+	                         height: 200px;
+	
+}
+.content2hinhanhproduct img:hover{transform: scale(1.1)
+	
+}
+.content2noidung{width: 800px;
+	      height: 500px;
+	      margin-left: auto;
+	      margin-right: auto;
+	     
+	      margin-top: 20px;
+	     
+	      
+	
+}
+/* content3*/
+.content3{width: 1024px;
+	      height: 450px;
+	     
+	
+	
+}
+.content3noidung{width: 800px;
+	      height: 450px;
+	      margin: 30px auto;
+	     
+	
+}
+.content3noidung h1{text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0px;
+	
+	
+}
+.content3hinhanh{width: 250px;
+	             height: 290px;
+	             background-color: aqua;
+	             float: left;
+	             position: relative;
+	            
+	             
+}
+.content3hinhanh img{width: 250px;
+	             height: 290px;
+	             background-color: aqua;
+	             float: left;
+	
+	             
+}
+.content3thongtin{position: absolute;
+	              width: 200px;
+	              
+	              
+	              top: 180px;
+	               border-bottom: 80px solid rgba(114,113,113,0.50);
+     
+      border-right: 20px solid transparent;
+      height: 0;
+     
+	
+}
+.content3thongtin p{margin-left: 20px;
+	
+}
+#hinhanh3{margin-left: 25px;
+	      margin-right: 25px;
+	
+}
+.content3hinhanh .content3thongtin .tenpor{color: aliceblue;
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+.content3hinhanh .content3thongtin .job{color: #373333;margin-top: 5px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+/* content4*/
+.content4{width: 1024px;
+	      height: 350px;
+	      
+	       background-color: #DCDADA;
+	
+}
+.content4noidung{width: 800px;
+	      height: 350px;
+	      margin: 0px auto;
+	      background-color: #DCDADA;
+	   
+}
+.content4noidung h1{text-align: center;
+	               padding-top: 30px; 
+	font-family: 'Roboto', sans-serif;
+	               
+}
+.content4partner{width: 185px;
+	             height: 105px;
+	             border: outset ;
+	             float: left;
+	             margin-right: 9px;
+	
+}
+.content4partner img{width: 185px;
+	             height: 105px;
+	
+}
+.content4partner:hover img{transform: scale(1.1)
+	
+}
+/* information*/
+.information{width: 1024px;
+	      height: 400px;
+	      
+	
+	
+}
+.information img{width: 500px;
+	             height: 400px;
+	             float: left;
+	 
+}
+form{width: 420px;
+	 height: 400px; 
+	float: left;
+	
+	
+}
+#Email{width: 400px;
+	height: 35px;
+	padding-left: 10px;
+	margin-bottom: 5px;font-family: 'Roboto', sans-serif;
+}
+#FirstName{width: 190px;
+	padding-left: 10px;
+	height: 35px;
+	margin-bottom: 5px;
+	margin-top: 50px;font-family: 'Roboto', sans-serif;
+}
+#LastName{width: 190px;
+	padding-left: 10px;
+	height: 35px;font-family: 'Roboto', sans-serif;
+}
+footer{width: 1024px;
+	      height: 350px;
+	      background: url(../image/background.png);
+	      background-size: cover;
+	     
+	
+	
+}
+#send{width: 150px;
+	  height: 40px;
+	  background-color: #01420D;
+	  color: aliceblue;
+	  
+	
+}
+#message{padding-left: 10px;
+	
+}
+.footernoidung{
+	width: 800px;
+	height: 350px;
+	
+	margin: 0 auto;
+	
+	
+}
+.footercol{width: 190px;
+	       height: 250px;
+	       
+	       float: left;
+	       margin-top: 50px;
+		
+}
+.footercol h3{margin-top: 0;color: aliceblue;
+	          font-size: 22px;font-family: 'Roboto', sans-serif;
+	
+}
+.footercol img{width: 93px;
+	           margin-bottom: 3px;
+	           height: 93px;
+	           
+	
+	
+}
+.footercol #logo1{text-decoration: none;
+	        color: #FFFFFF;
+	        padding-top:15px;
+	        font-size: 24px;
+	        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+
+	         
+}
+.footernoidung p{font-size: 14px;
+	             color: aliceblue;font-family: 'Roboto', sans-serif;	
+}
+#logo2{width: 40px;height: 40px;
+	
+}
+#footercol1noidung1{width: 190px;
+	                height: 135px;
+	                
+	                border-bottom: solid 1px #5A5A5A;
+	
+}
+.icon2{color: #FFFFFF; 
+	   margin-left: 10px;
+	   
+}
+
+#footercol1noidung1 p{margin-top: 5px;
+	                  margin-bottom: 0px;
+	                  color: #5A5A5A;
+	                  font-size: 14px;
+	                  width: 185px;
+}
+#footercolmid{margin-left:60px;
+	          margin-right: 60px;
+	          width: 300px;
+	          margin-top: 50px;
+	
+}
+#footercolmid p{color: #5A5A5A;font-size: 16px;
+	
+}
+#footercolmid #follow {width: 300px;color: aliceblue;
+	font-size: 17px;
+	
+}
+#footercolmid h3{margin-top: 0;
+	
+}
+#footerform{width: 300px;height: 90px;
+	
+}
+#enteremail{width: 300px;
+	       height: 40px;
+	       border: none;
+	       margin-bottom: 10px;
+	       text-align: center;
+}
+#Subscribe{width: 300px;
+	       height: 40px;
+	       border: none;
+	
+}
+#icontime{color: #5A5A5A;
+	
+}   
+#icondirection{color: #5A5A5A;
+	
+}
+#iconphone{color: #5A5A5A;}
+.copyright{width: 1024px;
+	      height: 50px;
+	      background-color: #161616;
+	      position: relative;
+	
+}
+.copyright p{margin-top: 0px;  
+	         color: #5A5A5A;
+		     margin-left: 112px;
+	         line-height: 50px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+#myBtn {
+  
+  position: absolute;
+  top: 0;
+  right: 100px;
+  z-index: 99;
+  
+  border: none;
+  outline: none;
+  background-color: #04550B;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
